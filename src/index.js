@@ -1,10 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
+import ExRenderListProduct from './components/Prop/ExRenderListProduct/ExRenderListProduct';
+import ExShoeStore from './components/Prop/ExShoeStore/ExShoeStore';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
- 
+    <div>
+
+        <ExShoeStore/>
+    </div>
 );
 
 // If you want to start measuring performance in your app, pass a function
